@@ -1,0 +1,899 @@
+body{
+	overflow-x : none;
+}
+.add-table{margin-bottom:100px !important;}
+.add-table, table{
+	width:100%;
+}
+.submit_btn_laptop{
+	margin-bottom : 30px;
+}
+.add-table table, thead, tr, th{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  
+}
+
+.act-label
+{
+	width: 100%;
+	cursor: pointer;
+}
+.thead-div{
+	background-color:#006287;
+	color:#fff;
+}
+
+/* checkbox */
+.actc{
+	height:20px;
+	width:20px;
+	
+}
+.thead-style{
+	height:20px;
+	width:20px;
+	float:right;
+	margin-right:20px !important; 
+}
+
+.holiday
+{
+	background-color: #dddddd;
+}
+.total{
+	height:50px;
+	font-size:20px;
+	background-color:#006287;
+	color:#fff;
+}
+.submit-btn{
+	float:right;
+	margin-top:25px;
+}
+
+.navbar-style{
+	color: white !important;
+}
+
+/*Employee List*/
+
+.display{
+	width:75%;
+	margin-left:150px;
+}
+
+.box {
+    padding: 20px;
+    background-color: #fff;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+}
+
+.table-responsive {
+    overflow-x: inherit;
+}
+.navbar-top{
+	background-color: #2f6387;
+	padding-top: 10px;
+	padding-bottom : 10px;
+}
+.side-bar{
+	background-color: #2f6387;
+	margin-top:62px;
+}
+.sidebar-style{
+	
+	background-color: #2f6387;
+	color:#fff;
+	margin-top:41px;
+}
+.header-top{
+	padding-top: 30px;
+	text-align: center;
+}
+.Background-side-bar{
+	background-color: #2f6387;
+	height:100%;
+}
+.anchor-btn{
+	font-size: 20px;
+	text-align: center;
+	color:#000000;
+}
+.anchor-btn-view{
+	font-size: 20px;
+	text-align: center;
+	color:#fff;
+}
+.anchor-btn-add{
+	font-size: 20px;
+	text-align: center;
+	color:#fff;
+}
+.filter-btn{
+	width:100%;
+}
+.active{
+	background-color: #fff;
+}
+.dropdown-user{
+	margin-top:10px;
+}
+.back-arrow{
+	float:left;
+	color:#2f6387;
+}
+.logo{
+	margin-left:67px;
+	width:120px;
+	margin-top:10px;
+	
+}
+
+.view-attendance-btn
+{
+    margin-right: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.delete{
+	margin-right: 10px;
+    padding: 7px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 20px;
+}
+.footer-link{
+	margin-top:-60px;
+	font-style: none;
+}
+.employee-list-header{
+	color:#2f6387;
+}
+.card{
+	box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+}
+.header-panel{
+	 background-color: #2f6387 !important;
+	 color:#fff !important;
+	 padding-top:25px;
+	 padding-bottom:25px;
+}
+.panel-title{
+	font-size:25px;
+	text-align: center;	
+}
+.logout-fa-btn{
+	color:#fff;
+
+	
+}
+.exportAttendance{
+	width:100%;
+}
+
+.dataTables_filter {
+    text-align: right;
+}
+
+.dataTables_paginate {
+    text-align: right;
+}
+
+@media only screen and (max-width: 450px) 
+{
+	.dataTables_filter {
+	    text-align: left;
+	    display:none;
+	}
+	div#user_data_length {
+	    float: right;
+	    margin-top: -30px;
+	    margin-bottom: 5px;
+	    margin-right: 6px;
+	}
+}
+
+.submit-attendance-btn-top {
+    margin-bottom: 10px;
+}
+
+.reset-btn {
+    float: right;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.sidebar ul li {
+    margin-top: 0;
+}
+
+#side-menu {
+    margin-top: 19px;
+}
+
+.sidebar ul li {
+    margin-top: 0;
+    border: 1px solid #2f6387;
+    border-top: 0;
+    text-align: left;
+}
+
+#side-menu li a {
+    text-align: left;
+    color: #2f6387;
+}
+
+.outing-suggestion-form {
+    padding-left: 30px;
+}
+
+label.field-label {
+    font-size: 20px;
+}
+
+.outing-suggestion-form .reset-btn {
+    margin-right: 20px;
+}
+
+.add-table, table {
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #006287; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #024057; 
+}
+.main-div{
+	padding:50px;
+	padding-top: 0px;
+}
+.submit-btn{
+	margin-right:5px;
+}
+.reset-btn{
+	margin-right:70px;
+}
+
+/*Suggestion Box */
+.form-data{
+	width:100%;
+	padding-left:50px;
+}
+.message-textarea{
+	height:100px;
+}
+.save-btn{
+	float:right;
+}
+.reset-box{
+	float:right;
+	margin-left:5px;
+}
+.text-header{
+	padding-left:50px;
+	padding-bottom:30px;
+}
+.reply_admin{
+	height:auto;
+	width:100%;
+	
+}
+.reply-admin-btn{
+	float:right;
+    margin-bottom: 50px;
+    margin-top: -7px;
+}
+.reply_user{
+	height:auto;
+	width:100%;
+	
+}
+.reply-user-btn{
+	float:right;
+    margin-bottom: 50px;
+    margin-top: -7px;
+}
+
+.replied-by span {
+    font-size: 11px;
+    color: #7c7878;
+}
+
+.reply-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+.replies-container {
+    max-height: 300px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+
+/* mailer style */
+
+.mailer-header{
+	    background-color: rgb(238, 238, 238);
+    height: auto;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    color: rgb(72, 70, 70);
+    text-align: left;
+}
+.editer-view{
+	    overflow-y: scroll;
+    height: 400px;
+    overflow-x: hidden;
+    border: 1px solid black;
+    margin-top: 10px;
+   	padding:25px;
+}
+#savebtn{
+	    float: right;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.btn_toobar{
+	    margin-left: 0px;
+    border: 1px solid;
+    width: 100%;
+}
+.view-data{
+	overflow-y: scroll;
+    height: 510px;
+    border: 1px solid black;
+    margin-top: 20px;
+    overflow-x: hidden;
+    padding: 25px;
+    text-align: justify;
+    margin-bottom: 25px;
+    background-color: aqua;
+}
+.close_reply {
+    background-color: darkgray;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: brown;
+}
+#fa-close{
+	font-size:50px;
+}
+.forgot-card
+{
+	padding: 25px;
+    margin-left: 25px;
+    margin-top:20px;
+}
+.forgot-header{
+	margin-top: -5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card-personal-info{
+	margin-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 15px;
+}
+.personal_info_header{
+	margin-left: 30px;
+    margin-top: -6px;
+    margin-bottom: 25px;
+}
+.expense_upload_file{
+	max-width: 60%;
+	max-height: 50%;
+	
+}
+.laptop_upload_file{
+	width: 100%;
+	height:auto;
+}
+.employee_attendance_list_add_btn{
+    padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 16px !important;
+    font-size: 21px !important;
+}
+.employee_attendance_list_export_btn{
+	padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 15px !important;
+    font-size: 21px !important;
+    margin-right:20px !important;
+    margin-left: 5px !important;
+}
+.employee_list_add_btn{
+	padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 17px !important;
+    font-size: 21px !important;
+}
+.employee_list_export_btn{
+	padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 17px !important;
+    font-size: 21px !important;
+    margin-right:5px !important;
+    margin-left: 5px !important;
+}
+.employee_list_filter_btn{
+    padding: 10px !important;
+    padding-left: 16px !important;
+    border-radius: 28px !important;
+    padding-right: 16px !important;
+    font-size: 21px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    float: left;
+}
+.employee_attendance_list_view_btn{
+     padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 17px !important;
+    font-size: 21px !important;
+    margin-right: 5px !important;
+    margin-left: -15px !important;
+    
+}
+.enable_month_btn{
+	
+}
+.export_suggestion_list_btn{
+	padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 15px !important;
+    font-size: 21px !important;
+    margin-right: 5px !important;
+    margin-left: -15px !important;
+}
+.export_t-shirt_btn_circle{
+	padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 15px !important;
+    font-size: 21px !important;
+    margin-right: 5px !important;
+    margin-left: -15px !important;
+}
+.export_expense_sheet_circle{
+    padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 15px !important;
+    font-size: 21px !important;
+    margin-right: 20px !important;
+}
+.annual_outing_suggestion_right_export{
+	padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 15px !important;
+    font-size: 21px !important;
+    margin-right: 5px !important;
+    margin-left: -15px !important;
+}
+.export_laptop_suggestion_btn{
+	padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 15px !important;
+    font-size: 21px !important;
+    margin-right: 5px !important;
+    margin-left: -15px !important;
+}
+.admin_view_suggestion_list_btn{
+    margin-right: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.admin_stop_suggestion_list_btn{
+ 	margin-right: 10px;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+.confirm_btn{
+	float: right !important;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.submit-btn-confirm{
+	margin-left:15px;
+}
+.annual-outing-para-style{
+	background-color: aqua;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 17px;
+    font-size: 16px;
+    border-radius: 11px;
+}
+/* footer */
+
+.footer-div{
+	
+}
+@media(max-width:480px){
+	.navbar-right{
+		margin-right: 0;
+	    margin-left: 155px;
+	    margin-top: -10px;
+	    margin-bottom: -50px;
+	}
+	.logo {
+    margin-left: 18px;
+    width: 120px;
+    margin-top: 10px;
+	}
+	.dropdown-user{
+	    margin-top: 0px;
+    margin-left: -55px;
+	}
+}
+
+/* Attendance mobile device */
+
+@media(max-width : 480px) {
+	.employee-list-header {
+	    margin-top: -10px;
+	}
+}
+
+/* T-shirt mobile device */
+
+
+@media(max-width : 480px) {
+	.t_shirt_header {
+        margin-top: 0px;
+	    margin-bottom: 20px;
+	    text-align: center;
+	    font-size: 30px;
+	}
+	.t_shirt_size_select{
+	    width: 96%;
+    	margin-bottom: 5px;
+	}
+	.submit-btn{
+		 margin-right: 15px;
+    	margin-left: -10px;
+	}
+}
+/* Personal Info */
+@media(max-width : 480px){
+	.card-personal-info {
+	   margin-left: -15px;
+	    padding-top: 30px;
+	    padding-bottom: 40px;
+	    margin-bottom: 15px;
+	    padding-left: 0px;
+	    padding-right: 12px;
+	}
+	.reset_btn_personal_info{
+	    margin-right: 30px;
+    	margin-left: 0px;
+	}
+	.personal_info_header {
+	    margin-left: 30px;
+	    margin-top: -18px;
+	    margin-bottom: 25px;
+	    font-size: 24px;
+	}
+	.submit_btn_laptop{
+	    margin-top: -40px;
+	    margin-right: 115px;
+	    margin-bottom: 30px !important;
+	}
+	.reset_btn_laptop{
+		margin-top:-40px;
+		margin-right : 40px;
+	}
+	.laptop_verification_div{
+		padding-left: 25px;
+	    padding-right: 25px;
+	    padding-bottom: 45px;
+	}
+	.laptop_radio{
+	    text-align: center;
+    	margin-top: 18px;
+	}
+	.laptop_main_header{
+		margin-top:-50px;
+	}
+	.suggestion_div{
+	    margin-left: -45px;
+	    margin-right: 3px;
+	    margin-top: -20px;
+	}
+	.suggestion_main_header{
+		margin-bottom:-12px;
+	}
+	.employee-list-header {
+	    color: #2f6387;
+	    font-size: 25px;
+	    
+	}
+	.view_suggstion_main_header{
+		margin-top:-10px;
+	}
+	.view_suggstion_header2{
+	    color: #006287;
+	   margin-top: -5px;
+	   margin-bottom: -25px;
+	   text-align: center;
+	}
+	.view_suggestion_main_div{
+	    margin-left: -45px;
+    	margin-right: 3px;
+	}
+	.All_suggestion_main_header{
+		color: #2f6387;
+	    font-size: 25px;
+	    margin-top: 12px;
+	}
+	.header-expense{
+		text-align: center;
+	    color: #2f6387;
+	    margin-top: -5px;
+	}
+	/* Expense Sheet */
+	.expense_sheet_div_row1{
+		margin-left: 0px;
+ 		margin-right: 0px;
+	}
+	.expense_sheet_div_row2{
+	    margin-left: 0px;
+    	margin-right: 8px;
+	}
+	.expense_upload_file{
+		max-width: 99%;
+	    max-height: 50%;
+	    margin-right: -5px;
+	    margin-top: 8px;
+	}
+	.expense_deleteimage {
+	    
+	    bottom: 55% !important;
+	}
+	.dropzone {
+	    width: 233px !important;
+	   
+	}
+	.expense_sheet_resetbtn{
+	     margin-right: -11px !important;
+	    margin-top: 18px !important;
+	    font-size: 14px !important;
+	}
+	.expense_sheet_Savebtn{
+	    float: right !important;
+	    margin-top: 18px !important;
+	    min-width: 120px !important;
+	    margin-left: 13px !important;
+	    margin-right: -4px !important;
+	    font-size: 14px !important;
+	}
+	.submit-expense-btn{
+		margin-left:-18px !important;
+	}
+	.tmp_dropzone{
+		width:200px !important;
+	}
+	/* Employee List */
+	.employee_list_main_header{
+		margin-top: 12px;
+	
+	}
+	.employee_list_right_btn{
+	    float: left;
+	    margin-top: 5px !important;
+	    margin-left: 5px !important;
+	}
+	.annual_outing_suggestion_right_export{
+        float: left;
+	    margin-top: 5px !important;
+	    margin-left: 5px !important;
+	    margin-bottom: 0px;
+	}
+	.annual_outing_suggestion_main_header{
+		margin-top: 15px;
+    	font-size: 20px;
+	}
+	.t_shirt_admin_header{
+		margin-top: 12px;
+	}
+	.t_shirt_admin_right_btn{
+	    float: left;
+	    margin-top: 5px;
+	    margin-left: 20px !important;
+		}
+	.t_shirt_admin_table{
+		padding-top: 18px;
+	}
+	.expense_admin_right_btn{
+	    float: left;
+	    margin-top: 5px !important;
+	    margin-left: 20px !important;
+	}
+	.expensive_admin_main_header{
+		margin-top: 12px;
+	}
+	.expensive_admin_table{
+		padding-top: 18px;
+	}
+	.laptop_admin_main_header{
+		margin-top:12px;
+	}
+	.laptop_admin_right_btn{
+		float: left;
+	    margin-top: 5px !important;
+	    margin-left: 20px !important;
+	}
+	.laptop_admin_table{
+		padding-top: 18px;
+	}
+	.suggestion_admin_header{
+		margin-top:12px;
+	}
+	.suggestion_admin_right_btn{
+		float: left;
+	    margin-top: 5px !important;
+	    margin-left: 20px !important;
+	}
+	.suggestion_admin_table{
+		padding-top: 18px;
+	}
+	.expense_policy_admin_table{
+		width: 100%;
+	}
+	.attendance_month_div{
+		margin-left: 0px;
+    	margin-right: 0px;
+	}
+	.footer-div{
+	    padding-left : 0px !important;
+	}
+}
+
+.annual-outing-para-style{
+ 	background-color: aqua;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 17px;
+    font-size: 16px;
+    border-radius: 11px;
+}
+.expense_list_filter_btn{
+	padding: 10px !important;
+    padding-left: 16px !important;
+    border-radius: 28px !important;
+    padding-right: 16px !important;
+    font-size: 21px !important;
+    margin-right: 5px !important;
+    margin-left: 5px !important;
+    float: left;
+}
+.expense_list_view_btn{
+	padding: 10px !important;
+    padding-left: 17px !important;
+    border-radius: 28px !important;
+    padding-right: 17px !important;
+    font-size: 21px !important;
+    margin-right: 5px !important;
+    margin-left: -15px !important;
+}
+.personal_info_card{
+    margin-bottom: 40px;
+    padding-bottom: 25px;
+    overflow-y: scroll;
+    height: 580px;
+    background-color: aliceblue;
+}
+.personal_info_profile_pic{
+    max-width: 100%;
+    border: 1px solid black;
+    height: 280px;
+    width: 270px;
+    margin-left: 70px;
+	
+}
+.personal_info_profile_capture{
+	max-width: 100%;
+    border: 1px solid black;
+    height: 280px;
+    width: 270px;
+    margin-left: 70px;
+	display: none;
+}
+.personal_info_mobile_email{
+    padding-left: 85px;
+    font-size: 18px;
+}
+.footer-div{
+    background-color: #2f6387;
+    padding-top: 20px;
+    padding-left: 224px;
+    padding-bottom: 10px;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footer_expense{
+	margin-top:0px !important;
+}
+.footer_laptop_verification{
+	margin-top:0px !important;
+}
+.footer-div-expense{
+    background-color: #2f6387;
+    padding-top: 20px;
+    padding-bottom: 11px;
+    color: #fff;
+    font-size: 15px;
+}
+.insert_btn{
+	margin-right: 10px;
+    padding: 7px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 20px;
+}
+
+/* Chat Start */
+.btn_access{
+    padding-top: 10px;
+    padding-bottom: 100px !important;
+}
+.tyaco_upload_file_btn{
+	border: 1px solid #b7c7d4;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    color : #000000;
+}

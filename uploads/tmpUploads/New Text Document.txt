@@ -1,0 +1,36 @@
+<div class="form-group">
+        <label for ="email">Email</label>
+          <input type="text" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="email"name="email" ngModel #emailref="ngModel">
+          <div *ngIf="emailref.errors &&(emailref.touched || emailref.dirty)" class ="aler alert-danger">
+           <div [hidden]="!emailref.errors?.pattern">
+             Invalid pattern
+           </div> 
+          </div> 
+    </div>
+
+----------------------------------------------------------
+
+
+
+<html>
+<body>
+<form action="#">
+  <input type="number" name="test" min=0 oninput="validity.valid||(value='');"><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+----------------------------------------------------------
+
+
+
+http://www.codaffection.com/
+
+--------------------------------------------------------
+
+https://medium.com/quick-code/top-tutorials-to-learn-typescript-c08834892e69
+
+
+
